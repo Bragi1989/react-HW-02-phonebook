@@ -1,0 +1,23 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.contactName {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+.contactButton {
+    width: 80px;
+    height: 40px;
+    color: #ffffff;
+    background-color: rgb(36, 209, 128);
+}
+.contactButton:hover,
+.contactButton:focus {
+    background-color: blue;
+}
